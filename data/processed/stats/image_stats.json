@@ -1,0 +1,15 @@
+{
+    "width_stats": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "std": 0
+    },
+    "height_stats": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "std": 0
+    },
+    "error": "list index out of range"
+}
