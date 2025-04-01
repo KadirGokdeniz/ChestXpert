@@ -8,7 +8,7 @@
   </p>
   <br>
   
-  [![GitHub license](https://img.shields.io/github/license/[KadirGokdeniz]/Chestxpert)](https://github.com/[KadirGokdeniz]/chestxpert/blob/main/LICENSE)
+  [![GitHub license](https://img.shields.io/github/license/KadirGokdeniz/ChestXpert)](https://github.com/KadirGokdeniz/ChestXpert/blob/main/LICENSE)
   [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
   [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-orange.svg)](https://pytorch.org/)
 </div>
