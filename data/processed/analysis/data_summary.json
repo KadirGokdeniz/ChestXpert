@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "total_images": 112120,
+        "total_patients": 30805,
+        "total_disease_classes": 15,
+        "top_5_diseases": {
+            "No Finding": 60361,
+            "Infiltration": 19894,
+            "Effusion": 13317,
+            "Atelectasis": 11559,
+            "Nodule": 6331
+        },
+        "age_range": [
+            1.0,
+            414.0
+        ],
+        "age_mean": 46.90146271851587,
+        "gender_distribution": {
+            "M": 63340,
+            "F": 48780
+        },
+        "view_positions": {
+            "PA": 67310,
+            "AP": 44810
+        },
+        "disease_per_image_distribution": {
+            "1": 91324,
+            "2": 14306,
+            "3": 4856,
+            "4": 1247,
+            "5": 301,
+            "6": 67,
+            "7": 16,
+            "9": 2,
+            "8": 1
+        },
+        "missing_demographics": 0,
+        "missing_demographics_percent": 0.0
+    },
+    "bbox": {
+        "total_bbox_records": 984,
+        "images_with_bbox": 880,
+        "bbox_coverage_percent": 0.784873349982162,
+        "bbox_stats": {
+            "width_mean": 256.3347084843461,
+            "width_std": 167.5444202345343,
+            "height_mean": 252.30254675471159,
+            "height_std": 159.362596413341,
+            "area_mean": 79113.86112850448,
+            "area_std": 84482.29733919661
+        }
+    },
+    "data_organization": {
+        "found_images": 112120,
+        "image_folder_counts": {
+            "images_001": 4999,
+            "images_002": 10000,
+            "images_003": 10000,
+            "images_004": 10000,
+            "images_005": 10000,
+            "images_006": 10000,
+            "images_007": 10000,
+            "images_008": 10000,
+            "images_009": 10000,
+            "images_010": 10000,
+            "images_011": 10000,
+            "images_012": 7121
+        },
+        "train_val_images": 86524,
+        "test_images": 25596,
+        "train_test_split_percent": [
+            77.17088833392793,
+            22.829111666072066
+        ]
+    }
+}

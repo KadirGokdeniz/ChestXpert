@@ -1,0 +1,58 @@
+{
+    "analyzed_images": 10000,
+    "dimensions": {
+        "width_mean": 1024.0,
+        "width_std": 0.0,
+        "height_mean": 1024.0,
+        "height_std": 0.0,
+        "resolution_mean": 1048576.0,
+        "resolution_min": 1048576,
+        "resolution_max": 1048576,
+        "aspect_ratio_mean": 1.0
+    },
+    "file_stats": {
+        "file_size_mean_kb": 392.61631787109377,
+        "bits_per_pixel_mean": 3.06731498336792
+    },
+    "quality_metrics": {
+        "contrast_mean": 247.2106,
+        "snr_mean": 2.2682657937436557,
+        "sharpness_mean": 15.788240283214659,
+        "entropy_mean": 7.417405605316162,
+        "laplacian_var_mean": 111.57856423473788
+    },
+    "quality_distribution": {
+        "resolution_quality": {
+            "Orta": 10000
+        },
+        "contrast_quality": {
+            "Y\u00fcksek": 9788,
+            "Orta": 212
+        },
+        "snr_quality": {
+            "D\u00fc\u015f\u00fck": 8500,
+            "Orta": 1483,
+            "Y\u00fcksek": 17
+        },
+        "sharpness_quality": {
+            "Orta": 5000,
+            "Y\u00fcksek": 2500,
+            "D\u00fc\u015f\u00fck": 2500
+        },
+        "overall_quality": {
+            "Y\u00fcksek": 8191,
+            "Orta": 1809
+        }
+    },
+    "outliers": {
+        "resolution": 0,
+        "contrast": 1132,
+        "snr": 182,
+        "sharpness": 38,
+        "entropy": 507,
+        "laplacian_variance": 89
+    },
+    "file_formats": {
+        ".png": 10000
+    }
+}
