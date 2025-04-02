@@ -1,0 +1,62 @@
+# configs/data_prep_config.yaml
+
+# Veri yolları
+# Veri yolları - Windows yol formatını kullanın ve gerçek yolunuza göre güncelleyin
+data_dir: "C:\\Users\\Asus F15\\Desktop\\ChestXpert\\data\\data\\archive (22)"
+metadata_path: "C:\\Users\\Asus F15\\Desktop\\ChestXpert\\data\\data\\archive (22)\\Data_Entry_2017.csv"
+output_dir: "C:\\Users\\Asus F15\\Desktop\\ChestXpert\\data\\processed"
+quality_csv: "C:\\Users\\Asus F15\\Desktop\\ChestXpert\\data\\data\\archive (22)\\quality_metrics.csv"
+
+# Veri bölme oranları
+train_ratio: 0.7
+val_ratio: 0.15
+test_ratio: 0.15
+
+# Görüntü ön işleme parametreleri
+preprocessing:
+  resize_dim: [1024, 1024]  # Zaten 1024x1024, değiştirmeye gerek yok
+  normalization: "minmax"  # Normalizasyon yöntemi: minmax, zscore, window, histogram_eq, clahe
+  apply_clahe: false  # CLAHE kontrastı arttırma
+  window: null  # Window değerleri, null ise kullanılmaz
+
+# Kalite filtreleme eşikleri
+quality_threshold:
+  snr: 1.5
+  contrast: 220
+  sharpness: 10.0
+
+# Augmentasyon parametreleri
+augmentation:
+  severity: "medium"  # light, medium, strong
+  apply_offline: true  # Offline augmentasyon uygula
+  target_ratio: 0.5  # Her sınıfı dominant sınıfın bu oranına kadar artır
+
+# Sınıf dengesizliği için stratejiler
+class_balancing:
+  method: "weighted_loss"  # weighted_loss, focal_loss, sampling
+  focal_gamma: 2.0
+  use_sampler: true
+  
+# Hastalık sınıfları
+disease_cols:
+  - "No Finding"
+  - "Infiltration"
+  - "Effusion"
+  - "Atelectasis"
+  - "Nodule"
+  - "Mass"
+  - "Pneumothorax"
+  - "Consolidation"
+  - "Pleural_Thickening"
+  - "Cardiomegaly"
+  - "Emphysema"
+  - "Edema"
+  - "Fibrosis"
+  - "Pneumonia"
+  - "Hernia"
+
+# Dataloader parametreleri
+dataloader:
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
