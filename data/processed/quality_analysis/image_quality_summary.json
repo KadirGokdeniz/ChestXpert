@@ -1,5 +1,5 @@
 {
-    "analyzed_images": 50,
+    "analyzed_images": 10000,
     "dimensions": {
         "width_mean": 1024.0,
         "width_std": 0.0,
@@ -11,47 +11,48 @@
         "aspect_ratio_mean": 1.0
     },
     "file_stats": {
-        "file_size_mean_kb": 391.41193359375,
-        "bits_per_pixel_mean": 3.057905731201172
+        "file_size_mean_kb": 392.13105830078126,
+        "bits_per_pixel_mean": 3.0635238929748536
     },
     "quality_metrics": {
-        "contrast_mean": 245.84,
-        "snr_mean": 2.48161283117697,
-        "sharpness_mean": 14.869269618889332,
-        "entropy_mean": 7.3463640213012695,
-        "laplacian_var_mean": 115.58775687913578
+        "contrast_mean": 247.2767,
+        "snr_mean": 2.268929651940858,
+        "sharpness_mean": 15.763847727766391,
+        "entropy_mean": 7.417773246765137,
+        "laplacian_var_mean": 111.52149180207466
     },
     "quality_distribution": {
         "resolution_quality": {
-            "Orta": 50
+            "Orta": 10000
         },
         "contrast_quality": {
-            "Y\u00fcksek": 50
+            "Y\u00fcksek": 9791,
+            "Orta": 209
         },
         "snr_quality": {
-            "D\u00fc\u015f\u00fck": 38,
-            "Orta": 11,
-            "Y\u00fcksek": 1
+            "D\u00fc\u015f\u00fck": 8524,
+            "Orta": 1450,
+            "Y\u00fcksek": 26
         },
         "sharpness_quality": {
-            "Orta": 24,
-            "Y\u00fcksek": 13,
-            "D\u00fc\u015f\u00fck": 13
+            "Orta": 5000,
+            "D\u00fc\u015f\u00fck": 2500,
+            "Y\u00fcksek": 2500
         },
         "overall_quality": {
-            "Y\u00fcksek": 44,
-            "Orta": 6
+            "Y\u00fcksek": 8178,
+            "Orta": 1822
         }
     },
     "outliers": {
         "resolution": 0,
-        "contrast": 1,
-        "snr": 1,
-        "sharpness": 0,
-        "entropy": 0,
-        "laplacian_variance": 1
+        "contrast": 1123,
+        "snr": 175,
+        "sharpness": 48,
+        "entropy": 532,
+        "laplacian_variance": 87
     },
     "file_formats": {
-        ".png": 50
+        ".png": 10000
     }
 }
