@@ -11,27 +11,27 @@
         "aspect_ratio_mean": 1.0
     },
     "file_stats": {
-        "file_size_mean_kb": 389.4559765625,
-        "bits_per_pixel_mean": 3.042624816894531
+        "file_size_mean_kb": 391.41193359375,
+        "bits_per_pixel_mean": 3.057905731201172
     },
     "quality_metrics": {
-        "contrast_mean": 245.36,
-        "snr_mean": 2.190650561950088,
-        "sharpness_mean": 15.662620326913968,
-        "entropy_mean": 7.409967422485352,
-        "laplacian_var_mean": 105.06381508299371
+        "contrast_mean": 245.84,
+        "snr_mean": 2.48161283117697,
+        "sharpness_mean": 14.869269618889332,
+        "entropy_mean": 7.3463640213012695,
+        "laplacian_var_mean": 115.58775687913578
     },
     "quality_distribution": {
         "resolution_quality": {
             "Orta": 50
         },
         "contrast_quality": {
-            "Y\u00fcksek": 48,
-            "Orta": 2
+            "Y\u00fcksek": 50
         },
         "snr_quality": {
-            "D\u00fc\u015f\u00fck": 46,
-            "Orta": 4
+            "D\u00fc\u015f\u00fck": 38,
+            "Orta": 11,
+            "Y\u00fcksek": 1
         },
         "sharpness_quality": {
             "Orta": 24,
@@ -39,17 +39,17 @@
             "D\u00fc\u015f\u00fck": 13
         },
         "overall_quality": {
-            "Y\u00fcksek": 39,
-            "Orta": 11
+            "Y\u00fcksek": 44,
+            "Orta": 6
         }
     },
     "outliers": {
         "resolution": 0,
-        "contrast": 7,
-        "snr": 2,
-        "sharpness": 1,
-        "entropy": 2,
-        "laplacian_variance": 0
+        "contrast": 1,
+        "snr": 1,
+        "sharpness": 0,
+        "entropy": 0,
+        "laplacian_variance": 1
     },
     "file_formats": {
         ".png": 50

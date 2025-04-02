@@ -455,9 +455,9 @@ def main():
         'outliers': {metric: len(df) for metric, df in outliers.items()},
         'file_formats': results_df['file_extension'].value_counts().to_dict()
     }
-    summary_dir = r"C:\Users\Asus F15\Desktop\ChestXpert\data\processed\quality_analysis"
+    dir = os.path.join(r"C:\Users\Asus F15\Desktop\ChestXpert\data\processed\quality_analysis")
     # Özeti JSON olarak kaydet
-    with open(summary_dir, 'w') as f:
+    with open(os.path.join(dir, "image_quality_summary.json"), 'w') as f:
         json.dump(numpy_to_python(summary), f, indent=4)
     
     print("\n=== ÖZET RAPOR ===")
