@@ -1,7 +1,7 @@
 # ChestXpert: Detection of Lung Diseases from Chest X-rays
 
 <div align="center">
-  <img src="assets/chestxpert_logo.png" alt="ChestXpert Logo" width="300"/>
+  <img src="assets/ChestXpert_logo.png" alt="ChestXpert Logo" width="300"/>
   <br>
   <p>
     <b>Detection of lung diseases from chest X-rays using deep learning</b>
