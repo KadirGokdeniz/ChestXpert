@@ -1,0 +1,10 @@
+# configs/model_configs/resnet_config.yaml
+model_type: metadata
+backbone: resnet50
+num_classes: 15
+pretrained: true
+freeze_backbone: true
+metadata:
+  use_metadata: true
+  metadata_dim: 3
+  fusion_method: attention

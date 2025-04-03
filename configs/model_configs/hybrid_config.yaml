@@ -1,0 +1,14 @@
+# configs/model_configs/hybrid_config.yaml
+model_type: hybrid
+backbone: resnet50
+num_classes: 15
+pretrained: true
+freeze_backbone: true
+metadata:
+  use_metadata: true
+  metadata_dim: 3
+bbox:
+  use_bbox: true
+  use_roi: true
+fusion:
+  method: attention
